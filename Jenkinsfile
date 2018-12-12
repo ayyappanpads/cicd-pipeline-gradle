@@ -5,7 +5,6 @@ pipeline {
       steps {
         checkout scm
       }}
-steps
   stage ('Build'){
   steps {
     echo 'Running Build Automation'
