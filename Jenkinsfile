@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Checkout'){
       steps {
-        checkout Scm
+        checkout scm
       }}
 steps
   stage ('Build'){
