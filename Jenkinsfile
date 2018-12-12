@@ -1,11 +1,11 @@
 pipeline {
   agent any
   stages {
-    Stage ('Checkout'){
+    stage ('Checkout'){
       steps {
         checkout Scm
       }}
-Steps
+steps
   stage ('Build'){
   steps {
     echo 'Running Build Automation'
