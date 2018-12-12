@@ -1,6 +1,8 @@
+node {
+  checkout scm
+}
 pipeline {
-  agent any 
-  ["git","checkout","master"].execute()
+  agent any
   stages {
   stage ('Build'){
   steps {
