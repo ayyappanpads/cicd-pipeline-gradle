@@ -1,5 +1,6 @@
 pipeline {
   agent any 
+  ["git","checkout","master"].execute()
   stages {
   stage ('Build'){
   steps {
